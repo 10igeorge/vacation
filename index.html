@@ -7,20 +7,31 @@
     <title>Iceland!</title>
   </head>
   <body>
+
+<!--======================== Carousel =========================-->
+
+<!--======================== End Carousel =========================-->
+
     <div class="container">
       <div class="navbar-fixed-top bg-info">
         <h3><a class="pull-left" href="index.html">Home</a></h3>
           <ul class="nav nav-pills pull-right">
-            <!-- <div class="navbar" data-toggle="collapse" data-target=".navbar-collapse"> -->
-              <li><a href="#">About</a></li>
-              <li><a href="#">Sites</a></li>
-                <!-- <div class="dropdown">
-                  <button id="sites" type="button" data-toggle="dropdown">
-                  <a href="#">Reykjavik</a>
-                  <a href="#">Waterfalls</a>
-                  <a href="#">Ring Road</a>
-                </div><!closes .dropdown -->
-              <li><a href="#">Culture</a></li>
+
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">Sites<b class="caret"></b></a>
+
+                <ul class="dropdown-menu">
+                  <li><a href="#">Reykjavik</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Waterfalls</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Geysers</a><li>
+                </ul>
+
+              <!--Reykjavik, Waterfalls, Geysers-->
+            <li><a href="#">Culture</a></li>
+
           </ul>
             <!-- </div> closes .navbar-->
       </div>
@@ -57,7 +68,12 @@
 
     </div>
 
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="container">
+      <p>&copy; 2016 Izzy &amp; Kevin, Inc.</p>
+    </footer>
     <!-- scripts =============================== -->
+    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

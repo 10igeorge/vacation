@@ -1,3 +1,4 @@
+
 body {
   background-color: #FAFAFA;
 }
@@ -31,9 +32,13 @@ img {
 .jumbotron {
   padding: 30px;
   margin-top: 20px;
+  font-language-override: "ISL";
 }
 
+footer {
+  text-align: center;
 
+}
 
 /*
 .columns {
