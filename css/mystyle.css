@@ -1,0 +1,14 @@
+.pull-left {
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.nav {
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.bg-info {
+  height: 50px;
+  border-radius: 25px;
+}
