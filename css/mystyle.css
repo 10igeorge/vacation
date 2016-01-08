@@ -1,12 +1,34 @@
 
 body {
-  background-color: #FAFAFA;
+  background-color: #81cfe0;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active:hover {
+  background-color: #F1F1F1;
+  opacity: 0.4;
+}
+
+.carousel-indicators .active {
+  background-color: #F1F1F1;
+}
+
+.carousel-indicators li {
+  border-color: #F1F1F1;
+}
+
+#slide {
+  height: 600px;
+  width: 100%;
 }
 
 /*--we used this to edit the Home button--*/
@@ -22,7 +44,6 @@ img {
 
 .bg-info {
   height: 50px;
-
 }
 
 .intro {
